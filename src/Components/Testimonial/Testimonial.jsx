@@ -16,7 +16,7 @@ const Testimonial = () => {
              <ul>
                  <li>
                      <div className="slide">
-                         <div className="user-info">
+                         <div className="user-info flex gap-5 items-center">
                             <img src={user_1} alt="" />
                             <div className="">
                                  <h3>William Jackson</h3>
@@ -29,7 +29,7 @@ const Testimonial = () => {
 
                  <li>
                      <div className="slide">
-                         <div className="user-info">
+                         <div className="user-info flex gap-5 items-center">
                             <img src={user_2} alt="" />
                             <div className="">
                                  <h3>William Jackson</h3>
@@ -42,7 +42,7 @@ const Testimonial = () => {
 
                  <li>
                      <div className="slide">
-                         <div className="user-info">
+                         <div className="user-info flex gap-5 items-center">
                             <img src={user_3} alt="" />
                             <div className="">
                                  <h3>William Jackson</h3>
