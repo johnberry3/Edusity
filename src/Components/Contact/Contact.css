@@ -2,3 +2,20 @@
     margin: 80px auto;
     max-width: 90%;
 }
+.contactIcon  li img{
+    width: 20px;
+}
+.contactIcon li{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.contact-col input, textarea, .submitBtn{
+     width: 100%;
+     outline: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.contact-col input, textarea, .submitBtn{
+    padding: 10px 15px ;
+}
