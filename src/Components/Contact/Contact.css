@@ -19,3 +19,6 @@
 .contact-col input, textarea, .submitBtn{
     padding: 10px 15px ;
 }
+.contact-col textarea{
+    padding: 10px 15px;
+}

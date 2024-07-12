@@ -14,3 +14,22 @@
     width: 23%;
     border-radius: 10%;
 }
+
+@media(max-width:850px){
+    .gallery{
+        flex-wrap: wrap;
+        gap: 2px;
+    }
+    .gallery img{
+        width: 45%;
+    }
+}
+@media(max-width:550px){
+    .gallery{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .gallery img{
+        width: 100%;
+    }
+}

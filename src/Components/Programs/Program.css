@@ -39,3 +39,10 @@
 .caption img{
     width: 60px;
 }
+
+@media(max-width:850px){
+    .programs{
+        flex-direction: column;
+        gap: 20px;
+    }
+}

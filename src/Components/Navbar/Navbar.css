@@ -11,6 +11,9 @@ nav{
     justify-content: space-between;
     z-index: 10;
 }
+.menu{
+    display: none;
+}
 /* .container{
     width: 100%;
     color: white;
@@ -18,4 +21,28 @@ nav{
 } */
 .dark-nav{
     background-color: #212ea0;
+}
+
+@media(max-width:840px){
+    nav{
+        padding: 15px 0;
+    }
+    nav ul{
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0px;
+        bottom: 0;
+        width: 200px;
+        z-index: -1;
+        background-color: #212ea0;
+        padding-top: 70px;
+        transition: 1s;
+    }
+    .menu {
+        display: block;
+    }
+    .hide-menu{
+        right: -200px;
+    }
 }
